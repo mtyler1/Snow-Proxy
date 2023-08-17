@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snow</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="uv/uv.bundle.js" defer></script>
+    <script src="uv/uv.config.js" defer></script>
+    <script src="register-sw.js" defer></script>
+    <script src="search.js" defer></script>    
+    <script src="index.js" defer></script>
+</head>
+
+<noscript>
+  <h1 style="font-family: Arial, Helvetica, sans-serif;">Snow requires JavaScript to be enabled in your browser, if you need help enabling it, <a href="https://www.wikihow.com/Enable-JavaScript">Click here to get help enabling JavaScript</a></h1>
+</noscript>
+<body onload="GetTabName()">
+  <div id="particles-js">
+    <nav id="NavBar">
+      <h1 id="SnowLogo">Snow</h1>
+        <ul id="UL">
+            <li onclick="redirect('./settings.html')">Settings</li>
+            <li style="color: rgb(37, 117, 207);">Home</li>
+        </ul>
+    </nav>
+    <div id="Proxy">
+      <h1>Search</h1>
+      
+      <form id="uv-form" class="flex-center">
+        <input
+          id="uv-search-engine"
+          value="https://www.google.com/search?q=%s"
+          type="hidden"
+        />
+        <input autocomplete="off" autocapitalize="off" id="uv-address" placeholder="Search the web" />
+      </form>
+     <br>
+      <br>
+      <button id="yt">Youtube</button>
+      </div>
+</div>  
+
+<footer>
+  <div id="footer1"></div>
+</footer>
+  <script src="particles.js"></script> 
+  <script src="app.js"></script> 
+  <script src="Snow.js"></script> 
+</body>
+</html>

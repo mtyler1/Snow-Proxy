@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Nunito:wght@800&family=Open+Sans&family=Poppins&display=swap');
+
+body {
+    background-color: rgb(25,25,25);
+    margin: 0;
+}
+
+#Proxy {
+text-align: center;
+align-items: center;     position: absolute;
+text-align: center;
+top: 30%;
+width: 100%;  
+z-index: 100;
+}
+
+#Proxy h1 {
+    color: lightgray;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    letter-spacing: 0.01cm;
+    font-size: 32pt;
+}
+
+#uv-address {
+    padding: 6px;
+    border-radius: 8px;
+    background-color: rgba(28,28,28, 0.7);
+    border: 2px solid rgba(28,28,28, 0.7);
+    width: 210px;
+    transition: border, 0.1s;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+#uv-address:focus {
+    outline: none !important;
+    border: 2px solid rgb(37, 117, 207);
+    color:rgb(37, 117, 207);
+}
+
+#UL {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+#UL li {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    display: inline;
+    margin: 12px;
+    float: right;
+    font-size: 14pt;
+    color: lightgray;
+    transition: 0.1s color;
+    cursor: pointer;
+}
+
+#UL li:hover {
+    color: rgb(37, 117, 207);
+}
+
+#NavBar {
+    background-color: rgba(25,25,25, 0.1);
+}
+
+
+#Settings {  
+     background-color: rgba(23,23,23, 0.8);
+    text-align: center;
+    align-items: center;     position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    width: 80%;  
+    z-index: 100;
+    border-radius: 6px;
+    padding: 10px;
+    margin-top: 100px;
+    }
+
+    
+#Settings h1 {
+    color: lightgray;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    letter-spacing: 0.01cm;
+    font-size: 26pt;
+}
+
+#Settings h2 {
+    color: lightgray;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    letter-spacing: 0.01cm;
+    font-size: 22pt;
+    text-align: left;
+}
+
+#particles-js canvas
+{
+    display: block;
+    vertical-align: bottom;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+    -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
+    transition: opacity .8s ease, transform 1.4s ease
+}
+#particles-js 
+{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -10;
+    top: 0;
+    left: 0
+}
+canvas
+{
+    display:block;
+    position: fixed;
+    z-index: -1;
+}
+
+#yt {
+    padding: 6px;
+    background-color: rgba(23,23,23, 0.2);
+    border: rgba(23,23,23, 0.6);
+    color: lightgray;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s background-color;
+}
+
+#yt:hover {
+    background-color: rgb(37, 117, 207);
+}
+
+#CardTabCloakName {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    color: lightgray;
+    background-color: rgba(34,34,34, 0.4);
+    width: 30%;
+    border-radius: 6px;
+    padding: 5px;
+    margin: 0;
+}
+
+#CardTabCloakName p {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    color: #8e8e8e;
+    margin-top: 0px;
+}
+
+#CardTabCloakName input {
+    padding: 5px;
+    background-color: rgba(26,26,26, 0.7);
+    border: 2px solid rgba(26,26,26, 0.7);
+    border-radius: 5px;
+    transition: 0.1s border;
+    color: lightgray;
+}
+
+#CardTabCloakName input:focus {
+    outline: none !important;
+    border: 2px solid rgb(37, 117, 207);
+}
+
+#CardTabCloakName #Content1 {
+    display: inline;
+}
+
+#CardTabCloakName #SubmitTabTitle {
+    padding: 3px;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    background-color: rgba(34,34,34, 0.4);
+    color: lightgray;
+    border: 2px solid rgba(34,34,34, 0.4);
+    transition: 0.1s background-color;
+    border-radius: 5px;
+    width: 42px;
+    cursor: pointer;
+}
+
+#CardTabCloakName #SubmitTabTitle:hover {
+   background-color: rgba(37, 117, 207);
+}
+
+#SnowLogo {
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+    float: left;
+    color: lightgray;
+    padding: 0;
+    margin: 0;
+    margin-left: 12px;
+    margin-top: 9px;
+}

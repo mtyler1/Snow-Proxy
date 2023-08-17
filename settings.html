@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snow | Settings</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="GetTabName()">
+  <noscript>
+    <h1 style="font-family: Arial, Helvetica, sans-serif;">Snow requires JavaScript to be enabled in your browser, if you need help enabling it, <a href="https://www.wikihow.com/Enable-JavaScript">Click here to get help enabling JavaScript</a></h1>
+  </noscript>
+  <div id="particles-js">
+    <nav id="NavBar">
+        <ul id="UL">
+            <li style="color: rgb(37, 117, 207);">Settings</li>
+            <li onclick="redirect('./index.html')">Home</li>
+        </ul>
+    </nav>
+    <div id="Settings">
+        <h1>Settings</h1>
+        <br>
+        <h2>Spoof</h2>
+        <hr />
+        <div id="CardTabCloakName">
+            <h3>Tab Name</h3>
+            <p>Change the tab name of Snow to another name. Example: "Classlink"</p>
+    <div id="Content1">
+        <input type="text" id="TabCloakName">
+&nbsp;
+        <button id="SubmitTabTitle" onclick="SetTabName(document.getElementById('TabCloakName').value)">Set</button>
+    </div>
+        </div>
+     </div>
+</div>  
+
+<footer>
+  <div id="footer1"></div>
+</footer>
+  <script src="particles.js"></script> 
+  <script src="app.js"></script> 
+  <script src="Snow.js"></script> 
+</body>
+</html>
